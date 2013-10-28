@@ -5,5 +5,5 @@ ModEmberApp::Application.routes.draw do
     end
   end
 
-  root to: 'ember#show'
+  root to: 'ember#index'
 end
