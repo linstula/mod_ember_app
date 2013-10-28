@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+// require turbolinks   Note: turbolinks is not being required
 //= require handlebars
 //= require ember
 //= require ember-data

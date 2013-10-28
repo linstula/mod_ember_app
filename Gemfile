@@ -33,3 +33,6 @@ end
 
 gem 'ember-rails'
 gem 'ember-source', '1.1.0'
+gem 'bootstrap-sass', '~> 2.0.3.0'
+gem 'compass-rails', '~>2.0.alpha.0'
+
