@@ -18,6 +18,7 @@
 //= require ember-data
 //= require_self
 //= require mod_ember_app
+//= require bootstrap
 
 // for more details see: http://emberjs.com/guides/application/
 ModEmberApp = Ember.Application.create();
