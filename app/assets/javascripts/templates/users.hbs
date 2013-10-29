@@ -5,5 +5,15 @@
       <th>ID</th>
       <th>Name</th>
     </tr>
+    {{#each controller}}
+      <tr>
+        <td>{{id}}</td>
+        <td>{{#link-to "users.show" this}}{{fullName}}{{/link-to}}</td>
+      </tr>
+    {{/each}}
   </table>
+</div>
+
+<div class="span8">
+  {{outlet}}
 </div>
